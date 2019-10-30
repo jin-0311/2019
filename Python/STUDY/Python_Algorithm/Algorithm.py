@@ -523,3 +523,16 @@ s1=s.split('*')
 s1
 s2=s1[1].split('-')
 s2
+
+# split 사용, 문자열에서 스페이스 제거하는 함수
+def erase_space_from_string(s):
+    s1=s.split(' ')
+    s2=''.join(s1)
+    return s2
+erase_space_from_string('hello world I am jiny')
+
+start='안녕*세상*!'
+start.split('*',1)  # ['안녕', '세상*!']
+start.rsplit('*',1)  # ['안녕*세상', '!']
+
+# a.strip(b)
