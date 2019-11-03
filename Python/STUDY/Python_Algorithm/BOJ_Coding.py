@@ -1,3 +1,6 @@
+# 출처 : 백준 온라인 저지
+# https://www.acmicpc.net/ 
+
 # a,b 입력받고(1,2) ->더하기
 a,b=map(int,input().split())
 

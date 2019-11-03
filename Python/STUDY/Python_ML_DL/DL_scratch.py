@@ -1,3 +1,5 @@
+# 출처 : 밑바닥부터 시작하는 딥러닝
+# http://www.hanbit.co.kr/media/books/book_view.html?p_code=B8475831198
 # coding='utf8'
 import numpy as np
 import pandas as pd

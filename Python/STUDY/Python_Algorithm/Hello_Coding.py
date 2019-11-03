@@ -1,3 +1,6 @@
+# 출처: Hello Coding 그림으로 개념을 이해하는 알고리즘
+# http://www.hanbit.co.kr/media/books/book_view.html?p_code=B5896248244
+
 # < Ch1 알고리즘 소개 >
 # 이진탐색 (단순 탐색은 100개면 다 확인)
 # log (100,10) = 10을 2번 곱해야 100이 됨 로그 <-> 거듭제곱

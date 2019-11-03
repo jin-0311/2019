@@ -1,3 +1,5 @@
+# 출처 : 실전활용! 텐서플로 딥러닝 프로젝트
+# https://wikibook.co.kr/tensorflow-projects/
 # < CNN - 교통 표지판 인식
 
 N_classes=43  # 43차원 배열

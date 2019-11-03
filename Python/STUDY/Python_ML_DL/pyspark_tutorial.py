@@ -1,4 +1,5 @@
-# < pyspark tutorial 0 from https://yujuwon.tistory.com/entry/spark-tutorial
+# pyspark tutorial 0
+# 출처 : https://yujuwon.tistory.com/entry/spark-tutorial
 
 
 from pyspark import SparkContext
@@ -68,32 +69,8 @@ even_rdd.collect() # Out[29]: [0, 2, 4, 6, 8]
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# < pyspark tutorial 1 from  https://medium.com/@amresh_php/spark-tutorial-starting-with-pyspark-part-1-7b6fbb20f9f0
+# pyspark tutorial 1
+# 출처 : https://medium.com/@amresh_php/spark-tutorial-starting-with-pyspark-part-1-7b6fbb20f9f0
 
 
 from pyspark import SparkContext
@@ -108,32 +85,10 @@ data.take(4)         # Out[10]: [0, 1, 2, 3]
 
 
 
+# pyspark tutorial 2
+# 출처 : https://www.guru99.com/pyspark-tutorial.html#1
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# < pyspark tutorial 2 from https://www.guru99.com/pyspark-tutorial.html#1
-
-# < TODO income을 label로 싹다 바꾸기!
+# < TODO income을 label로 싹다 바꾸기! 완료
 
 # SparkContext - 클러스터와 연결을 허용하는 내부 엔진! 작업실행시 필요
 from pyspark import SparkContext

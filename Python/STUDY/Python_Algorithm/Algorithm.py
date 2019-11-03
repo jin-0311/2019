@@ -1,4 +1,5 @@
-# 출처: 파이썬 자료구조와 알고리즘
+# 출처: 파이썬 자료구조와 알고리즘 : 기초 튼튼, 핵심 쏙쏙, 실력 쑥쑥
+# http://www.hanbit.co.kr/media/books/book_view.html?p_code=B8465804191
 # < Ch1 숫자
 
 # 정수 integer : immutable불변형

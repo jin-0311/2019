@@ -1,3 +1,6 @@
+# 출처 : 케라스로 구현하는 고급 딥러닝 알고리즘
+# https://wikibook.co.kr/keras/
+
 # < con2d cat vs dog
 
 import os , shutil
