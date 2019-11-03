@@ -1,3 +1,4 @@
+# 데이터 출처 : https://data.seoul.go.kr/dataList/datasetView.do?infId=OA-15182&srvType=F&serviceKind=1&currentPageNo=1
 # 2017.09.01~2018.08.31 (training dataset visualization)
 
 import pandas as pd
