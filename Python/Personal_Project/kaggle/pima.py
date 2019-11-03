@@ -1,4 +1,4 @@
-# 데이터 출처 :
+# 데이터 출처 : https://www.kaggle.com/uciml/pima-indians-diabetes-database
 # coding = 'uft-8'
 import numpy as np
 import pandas as pd
