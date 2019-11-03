@@ -1,4 +1,6 @@
-##### 기초 ###### 
+# 출처 : Do it! 쉽게 배우는 R 데이터 분석
+# http://www.easyspub.co.kr/20_Menu/BookView/138/PUB
+##### 기초 ######
 #실행 : ctrl +enter
 #여러줄 선택 및 실행 : shift + 키보드 방향키,  ctrl +enter
 #tools - global options - soft wrap : 자동 줄바꿈 
