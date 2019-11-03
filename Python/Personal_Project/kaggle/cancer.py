@@ -1,3 +1,4 @@
+# 데이터 출처 : https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
 # coding = 'uft-8'
 import numpy as np
 import pandas as pd
