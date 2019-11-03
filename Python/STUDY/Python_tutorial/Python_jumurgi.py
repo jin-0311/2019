@@ -649,7 +649,7 @@ map
 
 
 #%% Ch3) 시카고 샌드위치 맛집 소개 사이트에 접근하기
-* goo.gl/wAtv1s
+# * goo.gl/wAtv1s
 
 # 0. 준비 
 from bs4 import BeautifulSoup   # import library
@@ -1781,10 +1781,11 @@ draw_korea.to_csv('C:/Users/serah/ds/data/05. draw_korea.csv', encoding ='utf-8'
 #%% ch7) 시계열 데이터를 다뤄보자
 
 ## 7-1. Numpy의 polyfit으로 회귀(regression) 분석하기
+'''
 * visual studio 2015 build tools 
 * pip install prophet / pandas_datareader / pystan
 * conda install -c conda-forge fbprophet
-
+'''
 import warnings
 warnings.filterwarnings("ignore")
 import pandas as pd
@@ -1873,8 +1874,8 @@ plt.show()
 
 
 ## 7-2. Prophet 모듈을 이용한 forecast 예측
-* fb에서 발표한 시계열 데이터 기반의 예측 lib 
-* 통계적 지식이 없어도 파라미터 조정을 통해 모형조정, 내부가 어떻게 동작하는지 고민할 필요 없음 
+# * fb에서 발표한 시계열 데이터 기반의 예측 lib
+# * 통계적 지식이 없어도 파라미터 조정을 통해 모형조정, 내부가 어떻게 동작하는지 고민할 필요 없음
 
 # pinkwink_web 데이터에서 날짜(index)와 방문수(hit)만 따로 저장
 df = pd.DataFrame({'ds':pinkwink_web.index, 'y':pinkwink_web['hit']})
@@ -2130,7 +2131,7 @@ print(t.pos('이것도 재미 있습니당 ㅋㅋㅋㅋ', norm =True, stem =True
 
 ## 3. 워드 클라우드
 
-* WordCloud 설치 : **pip install wordcloud**
+# * WordCloud 설치 : **pip install wordcloud**
 
 from wordcloud import WordCloud, STOPWORDS
 
@@ -2709,7 +2710,7 @@ print('--->', contents[best_i])
 
 
 ## 8-8. 여자 친구 선물 고르기
-* word2vec 사용
+# * word2vec 사용
 
 import pandas as pd
 import numpy as np
@@ -2848,7 +2849,7 @@ plt.imshow(wordcloud.recolor(color_func=image_colors), interpolation='bilinear')
 plt.axis('off')
 plt.show()
 
-* gensim install : **pip install gensim**
+#  gensim install : **pip install gensim**
 
 import gensim
 from gensim.models import word2vec

@@ -1972,8 +1972,8 @@ print(result)
 
 # 모듈을 불러오는 다른 방법
 # 0) cmd에서 새로운 디렉토리 만들고 mod2옮기기 (파일(module)안에 mod2.py가 있고, mymod새파일 하나 더생성해서 옮기)
-C:/module>mkdir mymod   
-C:/move mod2.py mymod
+# C:/module>mkdir mymod
+# C:/move mod2.py mymod
 # 1)sys.path.append(모듈을 저장한 디렉토리) 사용하기
 python> import sys
 sys.path         # <- 모든 파이썬 라이브러리가 설치되어있는 디렉토리 확인가능 

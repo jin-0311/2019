@@ -1,4 +1,5 @@
 # 출처 : http://www.mysqltutorial.org/
+
 # error code 1175 해결방법 
 SET SQL_SAFE_UPDATES = 0;  # or preference 에서 safe update ~ 라고 써있는거 해체하고 재접
 
